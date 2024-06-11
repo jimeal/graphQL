@@ -7,22 +7,19 @@ const port = 4000;
 
 const schema = buildSchema(`
     type Query {
-        posts: [Post],
+        posts: [Post]
         comments: [Comment]
     }
-
     type Post {
         id: ID!
         title: String!
         description: String!
         comments: [Comment]
     }
-
     type Comment {
         id: ID!
         text: String!
         likes: Int
-
     }
 `)
 
