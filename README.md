@@ -40,9 +40,9 @@
   ```npm
   node server.js
   ```
-  ![graphql 실행](static/server.png)
+  ![graphql 실행](static/server.png)   
   server.js 실행이 되면 postman을 실행한다
-  ![postman](static/postman.png)
+  ![postman](static/postman.png)   
   post로 바꾼후 주소를 입력해준다
   그리고 body에서 raw를 선택해 준후 JSON파일로 바꿔준다
   query: "description"을 입력후 Send를 눌러주면 아래와 같이 데이터가 나오는걸 확인할 수 있다
