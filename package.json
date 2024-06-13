@@ -11,11 +11,13 @@
   "license": "ISC",
   "devDependencies": {
     "express": "^4.19.2",
-    "graphql": "^15.8.0"
+    "graphql": "^16.6.0"
   },
   "dependencies": {
+    "@apollo/server": "^4.10.4",
     "@graphql-tools/load-files": "^7.0.0",
     "@graphql-tools/schema": "^10.0.4",
-    "apollo-server-express": "^3.13.0"
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5"
   }
 }
