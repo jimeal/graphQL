@@ -13,4 +13,4 @@ module.exports = {
       return postsModel.addNewPost(args.id, args.title, args.description)
     }
   }
-}
+} 
