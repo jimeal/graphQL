@@ -1,4 +1,4 @@
-module.exports = [
+const posts = [
   {
       id: 'post1',
       title: 'Ii is a first post',
@@ -26,3 +26,9 @@ module.exports = [
       }]
   }
 ]
+
+function getAllPosts () {
+    return posts;
+}
+
+module.exports = { getAllPosts }
