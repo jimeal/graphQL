@@ -7,7 +7,7 @@ const comments = [
   {
       id: 'comment2',
       text: 'It is a second comment',
-      likes: 0
+      likes: 10
   },
   {
       id: 'comment3',
@@ -20,4 +20,10 @@ function getAllComments() {
   return comments;
 }
 
-module.exports = { getAllComments }
+function getCommentsByLikes(minLikes) {
+  return comments.filter(comment => {
+    return comment.likes >= minLikes
+  })
+}
+
+module.exports = { getAllComments, getCommentsByLikes }
